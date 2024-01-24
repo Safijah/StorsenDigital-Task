@@ -9,7 +9,7 @@ export class WeatherForecastComponent extends React.Component<IWeatherProps> {
     render() {
         return (
             <div >
-                  <h2>The forecast for the next 5 days in Bugojno</h2>
+                  <h2>5-Day Forecast for Bugojno</h2>
                  
                <div className='weather-app-container'>
                {

@@ -6,7 +6,6 @@ export const getWeatherData = async (): Promise<IWeatherData[]> => {
   try {
     const apiUrl = `https://api.weatherapi.com/v1/forecast.json?key=${key}&q=${city}&days=${days}&aqi=no&alerts=no`;
     const response = await axios.get(apiUrl);
-    console.log(response);
     const forecastData:IWeatherData[] = response.data.forecast.forecastday.map((item: any) => ({
       date: item.date,
       temperature: item.day.avgtemp_c,
