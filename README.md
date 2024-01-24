@@ -22,13 +22,13 @@ Before you begin, ensure you have the following installed:
    git clone https://github.com/Safijah/StorsenDigital-Task.git
 2. Change into the project directory:
     ```bash
-cd StorsenDigital-Task/Controls/WeatherForecast
+    cd StorsenDigital-Task/Controls/WeatherForecast
 
 4. Install dependencies:
     ```bash
-npm install
+    npm install
 
 6. Start the Weather Forecast App:
     ```bash
-npm start
+    npm start
 
